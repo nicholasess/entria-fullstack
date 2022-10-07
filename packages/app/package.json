@@ -5,10 +5,11 @@
   "dependencies": {
     "hoist-non-react-statics": "^3.0.1",
     "react": "16.6.0-alpha.8af6728",
-    "react-native": "0.57.3",
-    "react-navigation": "2.18.0",
+    "react-native": "0.64.0",
+    "react-navigation": "3.0.0",
     "react-relay": "1.6.2",
-    "styled-components": "^4.0.2"
+    "styled-components": "^4.0.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
@@ -51,6 +52,9 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "ios": "react-native run-ios",
     "android": "react-native run-android",
-    "test": "jest"
-  }
+    "test": "jest",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
