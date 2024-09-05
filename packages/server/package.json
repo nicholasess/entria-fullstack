@@ -3,7 +3,7 @@
   "description": "Entria GraphQL Server",
   "version": "0.0.1",
   "dependencies": {
-    "@babel/core": "^7.1.6",
+    "@babel/core": "^7.23.2",
     "@babel/polyfill": "^7.0.0",
     "@entria/graphql-mongoose-loader": "^2.1.1",
     "apollo-server-koa": "^2.0.4",
@@ -23,18 +23,18 @@
     "koa-bodyparser": "^4.2.1",
     "koa-compose": "^4.1.0",
     "koa-convert": "^1.2.0",
-    "koa-graphql": "^0.7.5",
+    "koa-graphql": "^0.10.0",
     "koa-graphql-batch": "^1.1.0",
     "koa-logger": "^3.2.0",
     "koa-router": "^7.4.0",
-    "mongoose": "^5.2.12",
-    "pretty-error": "^2.1.1",
+    "mongoose": "^5.7.3",
+    "pretty-error": "^3.0.4",
     "subscriptions-transport-ws": "^0.9.14",
-    "winston": "^3.0.0"
+    "winston": "^3.3.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.1.6",
+    "@babel/core": "^7.23.2",
     "@babel/node": "^7.0.0",
     "@babel/plugin-proposal-class-properties": "^7.0.0",
     "@babel/plugin-proposal-decorators": "^7.0.0",
