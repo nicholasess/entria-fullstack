@@ -6,7 +6,7 @@
     "hoist-non-react-statics": "^3.0.1",
     "react": "16.6.0-alpha.8af6728",
     "react-native": "0.57.3",
-    "react-navigation": "2.18.0",
+    "react-navigation": "5.0.0",
     "react-relay": "1.6.2",
     "styled-components": "^4.0.2"
   },
