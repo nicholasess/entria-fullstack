@@ -6,7 +6,7 @@
     "@babel/core": "^7.1.6",
     "@babel/polyfill": "^7.0.0",
     "@entria/graphql-mongoose-loader": "^2.1.1",
-    "apollo-server-koa": "^2.0.4",
+    "apollo-server-koa": "^3.13.0",
     "babel-core": "^7.0.0-bridge.0",
     "bcryptjs": "^2.4.3",
     "dataloader": "^1.4.0",
@@ -16,7 +16,7 @@
     "graphql-playground-middleware-koa": "^1.6.4",
     "graphql-relay": "^0.5.5",
     "graphql-subscriptions": "^0.5.8",
-    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-fetch": "^3.0.0",
     "jsonwebtoken": "^8.3.0",
     "kcors": "^2.2.2",
     "koa": "^2.5.2",
@@ -29,7 +29,7 @@
     "koa-router": "^7.4.0",
     "mongoose": "^5.2.12",
     "pretty-error": "^2.1.1",
-    "subscriptions-transport-ws": "^0.9.14",
+    "subscriptions-transport-ws": "^0.11.0",
     "winston": "^3.0.0"
   },
   "devDependencies": {
